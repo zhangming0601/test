@@ -1,0 +1,157 @@
+body,div,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    font-family: helvetica,arial,微软雅黑,华文黑体;
+    font-size: 12px;
+}
+.lmask{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 4707px;
+    opacity: 0;
+    z-index: -1;
+    background-color: #000000;
+}
+.landing{
+    width: 622px;
+    height: 368px;
+    background-color: #fff;
+    border: 2px solid #dcdcdc;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: -311px;
+    transition: all 1s;
+    display: none;
+    z-index: 9999;
+}
+.landing .landing-T{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.landing .landing-T a{
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    font-family: "宋体";
+    line-height: 30px;
+    font-weight: 400;
+    color: #c6c6c6;
+    transform-style: preserve-3d;
+    transition: all .5s;
+}
+.landing-T:hover a{
+    color: #ff65c7;
+    transform: rotateZ(180deg) scale(1.5);
+}
+.landing-C {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+.fast{
+    font-size: 20px;
+    color: #000000;
+    line-height: 40px;
+ }
+.landing-C .mobile a{
+    font-size: 16px;
+    color: #3481cf;
+    position: relative;
+}
+.landing-C .mobile a:hover{
+    border-bottom: 1px solid #3481cf;
+}
+.landing-C .safety,.mobile{
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+.landing-C .erwei{
+    margin-top: 20px;
+}
+.landing-C img{
+    position: absolute;
+    left: 255px;
+    transition: all 1s;
+}
+.landing-C .pctab{
+    width: 160px;
+    height: 198px;
+    background: url("../images/small_24_tiny.png");
+    position: absolute;
+    right: 125px;
+    top: 88px;
+    transition: all 1.5s .2s;
+    opacity: 0;
+}
+
+.landingInput {
+    text-align: center;
+    margin-top: 10px;
+}
+.landingInput input{
+    width: 258px;
+    height: 30px;
+    outline-style: none;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.landingInput input:nth-child(1){
+
+}
+.landingInput .login{
+    width: 258px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #86ce2f;
+}
+/*二维码动画*/
+
+.landing-C .erwei:hover .pctab{
+    opacity: 1;
+}
+.landing-C .erwei:hover img{
+    left: 220px;
+}
+
+.landing-B{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+.landing-B ul{
+    
+}
+.landing-B li{
+    float: left;
+    margin: 10px;
+}
+.landing-B li a{
+    color: #666;
+}
+.landing-B li a:hover{
+    color: #ff320f;
+    border-bottom: 1px solid #666;
+}
+.Lcurrent{
+    z-index: 9999;
+}

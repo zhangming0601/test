@@ -1,0 +1,120 @@
+@charset "uft-8";
+.a-foot {
+    width: 100%;
+    height: 382px;
+    background-color: #2A2A2A;
+}
+.a-foot-top {
+    width: 960px;
+    height: 212px;
+    margin: 0 auto;
+    padding-top: 26px;
+    border-bottom: 1px solid #666666;
+}
+.a-foot-top-left{
+    width: 440px;
+    height: 212px;
+    float: left;
+}
+.a-foot-top-right {
+    width: 500px;
+    height: 212px;
+    float: left;
+}
+.a-foot-top-left p {
+    font-size: 14px;
+    color: #666666;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.a-foot-top-left li {
+    float: left;
+    width: 110px;
+    height: 120px;
+    /*background-color: red;*/
+}
+.a-foot-top-left li div{
+    width: 69px;
+    height: 57px;
+    /*background-color: blue;*/
+    margin: 20px 0 0 10px;
+}
+.a-foot-top-left li span {
+    font-size: 14px;
+    color: #979797;
+    margin-left: 20px;
+}
+.a-foot-top-left .li1 div {
+    background: url('../images/plats1.png') no-repeat;
+}
+.a-foot-top-left .li1:hover div{
+    background: url('../images/plats1.png') no-repeat 0px -93px;
+}
+.a-foot-top-left .li1:hover span {
+    color: #12B7F5;
+}
+.a-foot-top-left .li2 div {
+    background: url('../images/plats1.png') no-repeat -116px 0px ;
+}
+.a-foot-top-left .li2:hover div {
+    background: url('../images/plats1.png') no-repeat -116px -93px ;
+}
+.a-foot-top-left .li2:hover span {
+    color: #12B7F5;
+}
+.a-foot-top-left .li3 div {
+    background: url('../images/plats1.png') no-repeat -222px 0px ;
+}
+.a-foot-top-left .li3:hover div {
+    background: url('../images/plats1.png') no-repeat -222px -93px ;
+}
+.a-foot-top-left .li3:hover span {
+    color: #12B7F5;
+}
+.a-foot-top-left .li4 div {
+    background: url('../images/plats1.png') no-repeat -332px 0px;
+}
+.a-foot-top-left .li4:hover div {
+    background: url('../images/plats1.png') no-repeat -332px -93px;
+}
+.a-foot-top-left .li4:hover span {
+    color: #12B7F5;
+}
+
+.a-foot-top-right div {
+    width: 100px;
+    height: 210px;
+    padding-left: 20px;
+    float: left;
+    /*background-color: red;*/
+}
+.a-foot-top-right div p {
+    font-size: 14px;
+    color: #666666;
+    height: 36px;
+    line-height: 36px;
+}
+.a-foot-top-right div li {
+    font-size: 14px;
+    color: #979797;
+    height: 22px;
+    line-height: 22px;
+}
+.a-foot-top-right div li:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFF;
+}
+.a-foot-buttom {
+    text-align: center;
+    padding-top: 11px;
+}
+.a-foot-buttom p {
+    font-size: 14px;
+    color: #666666;
+    height: 18px;
+    line-height: 18px;
+}

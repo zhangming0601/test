@@ -1,0 +1,161 @@
+@charset "UTF-8";
+ul,p,a,div,body,li,img{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: "微软雅黑";
+}
+a {
+    text-decoration: none;
+}
+.A-hbox {
+    height: 560px;
+    position: relative;
+    background: url("../images/mb65_s.jpg") no-repeat center top;
+}
+.A-htbox {
+    height: 75px;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    z-index: 100;
+}
+.A-htboxcenter {
+    margin: 0 auto;
+    width: 1080px;
+    height: 75px;
+}
+.A-hlogo {
+    float: left;
+    height: 75px;
+    width: 106px;
+    background: url("../images/imlogo.png") no-repeat center center;
+}
+.A-hlogoa {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.A-hnav {
+    height: 75px;
+    width: 468px;
+    float: left;
+}
+.A-hnav li {
+    float: left;
+    height: 75px;
+    margin-left: 40px;
+    width: 75px;
+}
+.A-hnav li:hover{
+    background-color: #0bd1f5;
+}
+.A-hnav li:hover a {
+    color: #FFFFFF !important;
+}
+.A-hnav li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    color: #ffffff ;
+}
+.A-hadd {
+    height: 75px;
+    float: right;
+    width: 320px;
+}
+.A-hadd1 {
+    width: 96px;
+    height: 39px;
+    background-color: #12cbf5;
+    margin-top: 18px;
+    border-radius: 20px;
+    float: left;
+}
+.A-hadd1 a:hover {
+    color: #FFFFFF !important;
+}
+.A-hadd1:hover {
+    background: #23f0ff !important;
+}
+.A-hadd1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 39px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.A-hadd2 {
+    float: left;
+    padding-top: 6px;
+    width: 218px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+}
+.A-hadd2 li {
+    float: left;
+}
+.A-hadd2 a {
+    margin-left: 23px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.A-hadd2 a:hover {
+    color: #53a7ff !important;
+}
+.A-hadd3 p {
+    float: right;
+    bottom:0;
+    right: 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+.A-hadd3 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #53a7ff !important;
+}
+.A-hbut {
+    width: 386px;
+    height: 76px;
+    position: absolute;
+    bottom: 14%;
+    left: 12%;
+    background: url("../images/btn541b.png") no-repeat top center;
+}
+.A-hbut:hover {
+    background: url("../images/btn541b.png") no-repeat bottom center;
+}
+.A-hbuta {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
